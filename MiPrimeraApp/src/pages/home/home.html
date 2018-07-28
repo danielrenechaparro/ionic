@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Titulo pagina principal
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  Contenido de mi pagina principal
+  <input [(ngModel)]="nombre_variable"/>
+  <p>
+    {{nombre_variable}}
+  </p>
+  <!-- Se indica la accion y la funcion que esta dentro de home.ts a usar-->
+  <button (click)="redirigir()">Ir a la nueva pagina</button>
+</ion-content>

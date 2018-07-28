@@ -1,0 +1,8 @@
+{
+  "name": "MiPrimeraApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "5e5fbe6e"
+}
